@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai tap tao bang</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- input -->
+      <div class="product input">
+        <h1>Input product's details information</h1>
+        <div class="input-container">
+          <h2>Product Name</h2>
+          <input type="text" id="name" required />
+        </div>
+        <div class="input-container">
+          <h2>Category Name</h2>
+          <div class="input-arrow">
+            <input type="text" id="category" readonly />
+            <div class="arrow-buttons">
+              <button onclick="increaseValue()">▲</button>
+              <button onclick="decreaseValue()">▼</button>
+            </div>
+          </div>
+        </div>
+        <div class="input-container">
+          <h2>Price</h2>
+          <input type="text" id="price" required />
+        </div>
+        <div class="input-container">
+          <h2>Quantity</h2>
+          <input type="text" id="quantity" required />
+        </div>
+        <div class="input-container">
+          <h2>Total price</h2>
+          <input type="text " id="total-price" required />
+        </div>
+        <div class="input-container">
+          <h2>Manufacturer Name</h2>
+          <div class="input-arrow">
+            <input type="text" id="manufacturer" readonly />
+            <div class="arrow-buttons">
+              <button onclick="increaseValue()">▲</button>
+              <button onclick="decreaseValue()">▼</button>
+            </div>
+          </div>
+        </div>
+        <div class="input-button">
+          <button>Add Product</button>
+          <button>Reset</button>
+        </div>
+      </div>
+
+      <!-- manager -->
+      <div class="product manager"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
