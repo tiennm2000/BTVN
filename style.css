@@ -32,7 +32,8 @@ h1 {
 }
 
 .input-container,
-.input-button {
+.input-button,
+table {
   margin: 20px 10px;
 }
 
@@ -41,7 +42,7 @@ h2 {
 }
 
 input {
-  padding: 3px;
+  padding: 7px;
   border-radius: 3px;
   border: 1px solid #eeeee4;
   width: 970px;
@@ -83,11 +84,40 @@ input {
   background-color: transparent;
   border: none;
   outline: none;
-  font-size: 8px;
+  font-size: 12px;
   cursor: pointer;
   margin-right: 2px;
 }
 
 .arrow-buttons button:first-child {
   margin-top: 2px;
+}
+
+#name {
+  background-color: #ffffb3;
+}
+
+#total-price {
+  background-color: #eeeeee;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #f2efe5;
+  width: 970px;
+  font-size: 12px;
+}
+
+th,
+td {
+  border: 1px solid #f2efe5;
+  text-align: left;
+  padding: 5px 20px 5px 5px;
+}
+
+td button {
+  width: 100%;
+  margin-left: 6px;
+  height: 30px;
+  text-align: center;
 }
