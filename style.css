@@ -105,19 +105,33 @@ table {
   border-collapse: collapse;
   border: 1px solid #f2efe5;
   width: 970px;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 th,
 td {
   border: 1px solid #f2efe5;
   text-align: left;
-  padding: 5px 20px 5px 5px;
+  padding: 10px 10px 10px 5px;
 }
 
 td button {
   width: 100%;
-  margin-left: 6px;
-  height: 30px;
+  height: 40px;
   text-align: center;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+td p{
+  margin-bottom: 20px;
+}
+
+.edit{
+  background-color: #ffa31a;
+}
+.delete{
+  background-color: #ff0000;
 }

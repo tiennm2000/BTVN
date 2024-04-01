@@ -20,8 +20,8 @@
           <div class="input-arrow">
             <input type="text" id="category" readonly />
             <div class="arrow-buttons">
-              <button onclick="increaseValue()">▲</button>
-              <button onclick="decreaseValue()">▼</button>
+              <button onclick="increaseCategory()">▲</button>
+              <button onclick="decreaseCategory()">▼</button>
             </div>
           </div>
         </div>
@@ -42,14 +42,14 @@
           <div class="input-arrow">
             <input type="text" id="manufacturer" readonly />
             <div class="arrow-buttons">
-              <button onclick="increaseValue()">▲</button>
-              <button onclick="decreaseValue()">▼</button>
+              <button onclick="increasemanufacturer() " >▲</button>
+              <button onclick="decreasemanufacturer()" >▼</button>
             </div>
           </div>
         </div>
         <div class="input-button">
-          <button>Add Product</button>
-          <button>Reset</button>
+          <button onclick="addProduct()" >Add Product</button>
+          <button onclick="reset()">Reset</button>
         </div>
       </div>
 
@@ -57,7 +57,7 @@
       <div class="product manager">
         <h1>Management Products</h1>
         <table>
-          <tr>
+          <tr id="heading">
             <th>No</th>
             <th>Product Name</th>
             <th>Category Name</th>
@@ -67,16 +67,14 @@
             <th></th>
             <th></th>
           </tr>
-          <tr>
-            <td>1</td>
-            <td>A</td>
-            <td>Iphone</td>
-            <td>10</td>
-            <td>25</td>
-            <td>Apple</td>
-            <td class="edit"><button>Edit</button></td>
-            <td class="delete"><button>Delete</button></td>
-          </tr>
+            <!-- <td><p>1</p></td>
+            <td><p>A</p></td>
+            <td><p>A</p></td>
+            <td><p>a</p></td>
+            <td><p>A</p></td>
+            <td><p>A</p></td>
+            <td ><button class="edit">Edit</button></td>
+            <td><button class="delete">Delete</button></td> -->
         </table>
       </div>
     </div>
